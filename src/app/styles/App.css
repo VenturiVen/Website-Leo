@@ -3,7 +3,7 @@
 }
 
 .App-logo {
-  height: 40vmin;
+  height: 10vmin;
   pointer-events: none;
 }
 
@@ -26,6 +26,12 @@
 
 .App-link {
   color: #61dafb;
+}
+
+/* makes the link not clickable and the cursor style an arrow */
+.inactive-link {
+  pointer-events: none;
+  cursor: default;
 }
 
 @keyframes App-logo-spin {
